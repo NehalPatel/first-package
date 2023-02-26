@@ -1,0 +1,35 @@
+{
+    "name": "nehal-patel/first-package",
+    "description": "This is just a demo package",
+    "authors": [
+        {
+            "name": "Nehal Patel",
+            "email": "iamnehalpatel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files" : ["src/helpers.php"],
+        "psr-4": {
+            "NehalPatel\\FirstPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NehalPatel\\FirstPackage\\Tests\\" : "tests/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0"
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "NehalPatel\\FirstPackage\\Providers\\FirstPackageServiceProvider",
+                "NehalPatel\\FirstPackage\\Providers\\RouteServiceProvider"
+            ],
+            "aliases": {
+                "FirstPackage" : "NehalPatel\\FirstPackage\\Facades\\FirstPackage"
+            }
+        }
+    }
+}
