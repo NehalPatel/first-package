@@ -68,6 +68,10 @@ class FirstPackageServiceProvider extends ServiceProvider
         $this->publishes([
             $this->base_path('resources/lang') => resource_path('lang/vendor/first-package')
         ], 'first-package-lang');
+
+        $this->publishes([
+            $this->base_path('resources/assets') => public_path('vendor/first-package')
+        ], 'first-package-static-assets');
     }
 
 }
