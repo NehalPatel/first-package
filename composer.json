@@ -1,6 +1,7 @@
 {
     "name": "nehal-patel/first-package",
     "description": "This is just a demo package",
+    "license": "MIT",
     "authors": [
         {
             "name": "Nehal Patel",

@@ -2,14 +2,36 @@
 
 ## About Laravel First Package
 
-First Package is a laravel learning package. 
+First Package is a laravel learning package.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+composer require nehal-patel/first-package
+```
+
+## Usage
+
+```php
+use NehalPatel/Hello
+
+// returns default greet message
+Hello::greet()
+
+// returns greet message with given parameter
+Hello::greet("Nehal Patel")
+
+```
 
 ### Creator
 
 - **[Nehal Patel](https://nehalpatel.in/)**
 
 ## Warning
-This is a package created to learn about laravel package development. Please don't use it in your production server. 
+
+This is a package created to learn about laravel package development. Please don't use it in your production server.
 
 ## Security Vulnerabilities
 
@@ -17,4 +39,4 @@ If you discover a security vulnerability within package, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](./LICENSE.md).
