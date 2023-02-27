@@ -39,4 +39,4 @@ If you discover a security vulnerability within package, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](./LICENSE.md).
+The Laravel First-Package is open-sourced software licensed under the [MIT license](./LICENSE.md).
